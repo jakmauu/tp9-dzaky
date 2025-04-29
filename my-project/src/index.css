@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reduce CSS bundle size by moving specific styles inline */
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
